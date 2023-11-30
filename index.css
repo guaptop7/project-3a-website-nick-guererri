@@ -23,11 +23,8 @@ h1 {
     color: #7289da;
 }
 
-h2:hover {
-    font-size: 32px;
-}
-
 p {
     padding-left: 300px;
     padding-right: 300px;
+    font-size: 24px;
 }
