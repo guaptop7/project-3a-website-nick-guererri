@@ -11,7 +11,7 @@
 }
 
 ul {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #main {
@@ -26,5 +26,18 @@ h1 {
 p {
     padding-left: 300px;
     padding-right: 300px;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.visuals {
+    position: fixed;
+    left: 50px;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+
+#newcarpos {
+    width: 400px;
+    height: 300px;
 }

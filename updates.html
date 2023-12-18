@@ -8,22 +8,43 @@
     <link rel="stylesheet" href="index.css" type="text/css">
 </head>
 <body id="main">
+    <img src="camera1.png" class="visuals">
+    <h3 style="position: fixed; left: 50px;">Sandbox Explorer</h3>
     <h1>
-        <a href="index.html">Final Project</a>
+        <a href="index.html">Final Project: Sandbox Explorer</a>
     </h1>
     <ul>
         <li><a href="updates.html">Updates</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
     <h1>Updates</h1>
+    <h2>11/20/23</h2>
+    <p>Began project with idea of virtual production but eventually became set on a sandbox world similar to GTA and other walkable/driveable games. </p>
     <h2>11/27/23</h2>
-    <p>Revised idea, focusing on physics for cars in the scene. Need to setup city for the world (hopefully not too cluttered with objects).</p>
+    <p>Focusing on physics for cars in the scene. Need to setup a city or environment for the world.</p>
     <h2>11/29/23</h2>
-    <p> Added a Realistic Car Controller + worked on enter exit system for interacting with cars. Research video example below.</p>
+    <p> Added a Realistic Car Controller + working on finding an enter exit system for interacting with cars. Video example below.</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/CmubyhPVqOo?si=EvBU-j1tdafGfXEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <p><b>Devlog</b></p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfuxTARtvR0?si=-qISEWzMkHvjd9ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <p>Goals:
-        Debug Enter/Exit, Build Environment, Create and implement interactables.
+        Enter/Exit, Build Environment, Create and implement interactables.
     </p>
+    <br>
+    <h2>12/4/23</h2> 
+    <p>trying to pick between the realistic-car-controller or this simple car controller (below). The RCC model is very detailed which is making it hard to implement an enter/exit script without knowing parameters. Looking into adding interactables like money which the player can collect. Might try outputting to a canvas, the money values and/or a speed gauge for the car.</p>
+    <img src="newcar.png" id="newcarpos"> 
+    <br>
+    <h2>12/6/23</h2> 
+    <p>Switched the Realistic Car Controller asset to a simpler controller and model so that I could use an enter exit method. Took me a couple of days to find an enter/exit script that functioned with my assets, trying to build a city similar to my previous project where there is half city; half nature, now I'm done with the controller/movement functions.<li><a href="https://assetstore.unity.com/packages/tools/physics/prometeo-car-controller-209444" target="_blank">Free Car Controller</a></li></p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ElWD71tCUjg?si=dJ1LismDBPurjjy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>12/11/23</h2>   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BT4SG31TfdQ" title="devlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    *Enter/Exit script is not written by me, I meant the configuring*
+    <br><br>
+    <a href="https://github.com/Sahani067/Car-Enter-Exit-in-unity/blob/main/CarEnterExit" target="_blank">EnterExit-github</a>
+    <h2>12/17/23</h2>
+    <p>added some final touches</p>
 </body>
